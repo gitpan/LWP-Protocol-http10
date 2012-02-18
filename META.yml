@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               LWP-Protocol-http10
-version:            6.02
+version:            6.03
 abstract:           Legacy HTTP/1.0 support for LWP
 author:
     - Gisle Aas <gisle@activestate.com>
@@ -16,15 +16,15 @@ requires:
     IO::Select:      0
     IO::Socket:      0
     LWP::Protocol:   6
-    perl:            5.008008
+    perl:            5.008001
 resources:
     MailingList:  mailto:libwww@perl.org
-    repository:   http://github.com/gisle/libwww-perl/tree/LWP-Protocol-http10
+    repository:   http://github.com/gisle/lwp-protocol-http10
 no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.56
+generated_by:       ExtUtils::MakeMaker version 6.57_05
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4

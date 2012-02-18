@@ -1,6 +1,6 @@
 #!perl -w
 
-require 5.008008;
+require 5.008001;
 use strict;
 use ExtUtils::MakeMaker;
 
@@ -10,7 +10,7 @@ WriteMakefile(
     ABSTRACT_FROM => 'lib/LWP/Protocol/http10.pm',
     AUTHOR => 'Gisle Aas <gisle@activestate.com>',
     LICENSE => "perl",
-    MIN_PERL_VERSION => 5.008008,
+    MIN_PERL_VERSION => 5.008001,
     PREREQ_PM => {
 	'LWP::Protocol' => 6,
 	'HTTP::Response' => 6,
@@ -20,7 +20,7 @@ WriteMakefile(
     },
     META_MERGE => {
 	resources => {
-            repository => 'http://github.com/gisle/libwww-perl/tree/LWP-Protocol-http10',
+            repository => 'http://github.com/gisle/lwp-protocol-http10',
 	    MailingList => 'mailto:libwww@perl.org',
         }
     },
